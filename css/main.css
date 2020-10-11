@@ -60,16 +60,41 @@ a:hover{
 }
 
 .header-text{
-  font-size: 15vh; 
+  font-size: 15vh;
   margin: 0;
   padding: 0;
   order:1;
 }
 
 .header-text p{
-  font-size: 5vh; 
+  font-size: 5vh;
   margin: 0;
-  padding: 0;
+  padding: 0px;
+}
+
+.about-header{
+  font-size: 15vh;
+  margin: 0;
+  padding-left: 30px;
+  padding-top: 0px;
+  order:1;
+}
+
+.about-header p{
+  font-size: 5vh;
+  background-color: orange;
+  border-radius: 25px;
+  color: white;
+  margin: 20;
+  width: 1000px;
+  padding: 20px;
+
+}
+
+.about-hr {
+  color:gray;
+  width: 15px;
+  padding-right: 1000px;
 }
 
 .nav-bar{
@@ -160,7 +185,7 @@ a:hover{
 }
 
 .sidenav textarea:active{
- 
+
   border: none;
 }
 
@@ -179,7 +204,7 @@ a:hover{
   width: 100%;
   height: 10vh;
   background-color: orange;
-  
+
 }
 
 .chat-header p{
@@ -496,4 +521,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-

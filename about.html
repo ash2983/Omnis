@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>About Omnis</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,43 +26,59 @@
 </head>
 
 <body>
-  
+
     <div class = "nav-bar">
       <ul class = "nav_links">
         <nav>
-        <li><a href = "/index.html">Home</a></li>
-        <li><a href = "/about.html">About</a></li>
-        <li><a href = "/team.html">Team</a></li>
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "about.html">About</a></li>
+        <li><a href = "team.html">Team</a></li>
       </ul>
     </nav>
     </div>
     <!---Header Section-->
     <section id = "header">
     <div class = "about-txt">
-      
-      <img src="img/comet-spark-UT Dallas orange.png" alt="comet spark">
-      <div class = "header-text">
-        OMNIS
+      <div class = "about-header" >
+        ABOUT
+        <hr class = "about-hr">
         <p>
-          Find online UTD resources
+        When beginning the brainstorming phase of our WEHack project,
+        our team debated over multiple ideas that we thought would be viable as well as useful. As a team, we
+        wanted to create something that would help future UTD students navigate college life.
+        We initially thought to create a robot for the platform Discord, but with some direction from a mentor,
+        we decided to take our project in another direction. We maintained that we wanted to create a bot,
+        but it would instead be related to assisting those who wanted to navigate the the numerous UTDallas academic websites.
+        Instead of spending hours webcrawling for hidden info within UTD sites, we planned to make a bot that could parse
+        these sites for you, and return a quick and easy answer.
+        </p>
+
+        <p>
+          Once we finalized our idea, we contemplated how to approach its implementation. There were
+          hundreds of chatbbot tutorials in dozens of programming languages, each using different libraries
+          and implementations. We also needed a chatbot that could grab data off the internet, or in this case,
+          Google.com. We decided to use the language Python for its data analysis and scraping possibilities,
+          which could help us when making the robot respond using data it found.
+          We researched different methods of implementing a chatbot using Python,
+          and once we found a method we thought would work best for our project,
+          we began implementation using a quick start tutorial.
+        </p>
+
+        <p>
+          However, following the tutorial was not nearly as simple as it seemed.
+          Because the tutorial was written with Linux users in mind, and most of us were using Apple/Microsoft software,
+          there were certain areas where we needed to perform more research to truly grasp what our next step in the program was.
+          We had to make a few changes to the foundation provided by the tutorial, and then we had to format these changes
+          for Python. Python's strict indentation rules proved to be more tricky than expected. Finally, we
+          spent a while going through and debugging our code as well. 
+        </p>
+        <p>
+          (after implementation, talk about debugging)
         </p>
       </div>
     </div>
   </section>
 
-  
-
-  <!-- Add your site or application content here -->
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
